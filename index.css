@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "beebo";
+  src:
+    local("beebo"),
+    url("font/SourceSansPro-Bold.otf") format("opentype");
+}
+
+
+.game {
+	width: 10vw;
+}
+
+img {
+	width: 100%;
+}
+
+html {
+	color: white;
+	background: black;
+	font-family: beebo;
+	font-size: 1vw;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+#games {
+	display: flex;
+}
